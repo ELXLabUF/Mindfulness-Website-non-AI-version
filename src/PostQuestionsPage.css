@@ -1,0 +1,140 @@
+.questions-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .question-container {
+    margin-bottom: 20px;
+  }
+  
+  .question-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .answer-options {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: auto;
+    gap: 10px;
+  }
+  
+  .answer-options label {
+    font-size: 18px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+  }
+  
+  .answer-options input[type="radio"] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+    outline: none;
+    margin: 10px 0;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  .answer-options input[type="radio"]:hover {
+    border-color: #999;
+  }
+  
+  .answer-options input[type="radio"]:checked {
+    border-color: #327137;
+    background-color: #327137;
+  }
+  
+  .answer-options input[type="radio"]:checked:before {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #fff;
+  }
+
+  label:first-child {
+    margin-left: 0;
+  }
+  
+  label:last-child {
+    margin-right: 0;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .answer-options {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+
+  .post-button-container {
+    display: flex;
+    justify-content: center;
+    margin:0;
+    padding-bottom: 40px;
+    background-color: white;
+    /* width: 80%;
+    max-width: 600px; */
+  }
+  
+  .continue-button {
+    background-color: #327137;
+    color: #f5f5f5;
+    border: 2px solid #327137;
+    border-radius: 2rem;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .continue-button:hover {
+    background-color: #D7ECC5;
+  }
+
+  .mcq-container {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    max-width: 90%;
+  }
+  
+  .mcq-question {
+    margin-bottom: 20px;
+    display: flex;
+  }
+
+  .mcq-question p{
+    max-width: 100%;
+  }
+
+  .mcq-question label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    max-width: 10%;
+    margin: 0 20px;
+    padding: 10px;
+  }
+
+  .mcq-question input {
+    margin-bottom: 10px;;
+  }
+  
+  .mcq-response {
+    display: flex;
+  }
+  
+  .mcq-response input[type="radio"] {
+    margin-right: 10px;
+  }
+  

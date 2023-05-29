@@ -1,0 +1,153 @@
+.about-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background-image: url('/public/mindfulness_welcome.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .about-us-message-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    margin-top: 15%;
+  }
+  
+  .about-page-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+  }
+  
+  .about-page-logo {
+    width: 200px;
+    height: 50px;
+    /* Add your logo image here */
+  }
+  
+  .about-page-nav-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .about-page-nav-link {
+    margin-right: 20px;
+    font-size: 24px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .about-page-nav-link:hover {
+    color: #cccccc;
+  }
+  
+  .about-page-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #ffffff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  .about-page-heading {
+    font-size: 36px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .about-page-welcome-message {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .about-page-team {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .about-page-team-member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+    width: 200px;
+  }
+  
+  .about-page-team-member-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .about-page-team-member-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .about-page-team-member-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .about-page-contact-info {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .about-page-contact-info a {
+    color: #2196f3;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .about-page-contact-info a:hover {
+    color: #0d8bf0;
+  }
+
+  .guide-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .guide-background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/public/surveypage.JPG');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    z-index: -1;
+  }

@@ -1,0 +1,155 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  opacity: 90%;
+  font-weight: bold;
+  background-color: #ffffff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.background-image-med {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/public/meditation.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.70;
+  z-index: -1;
+}
+
+.meditation-background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  /* background-image: url('/public/meditation.jpg'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.5;
+  z-index: -1;
+  transform: scaleX(-1);
+}
+
+.meditation-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* height: 100vh; */
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background-image: url('/public/meditation.jpg');
+    opacity: 0.9;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 2rem;
+  /* padding-top: 7rem; */
+}
+
+.video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* margin-top: 1rem; */
+  width: 80%;
+  max-width: 800px;
+}
+
+.video-wrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  width: 100%;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-info {
+  text-align: center;
+  margin-top: 1rem;
+  /* margin-bottom: 3rem; */
+  width: 100%;
+  background-color: #afe782;
+  opacity: 0.8;
+}
+
+.description {
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+  font-weight: 900;
+}
+
+.benefits {
+  font-size: 1.2rem;
+  /* font-style: italic; */
+  font-weight: 900;
+  margin-bottom: 2rem;
+
+}
+
+.button-container {
+  margin-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+.meditate-button {
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 2rem;
+  background-color: #327137;
+  opacity: 0.9;
+  color: #f5f5f5;
+  cursor: pointer;
+}
+
+.meditate-button:hover {
+  background-color: #D7ECC5;
+  color:#327137;
+  border: #327137;
+  opacity: 0.8;
+}
+
+
+@media (max-width: 768px) {
+  .title{
+    padding-top: 0;
+    margin-top: 1rem;
+  }
+  .video-container {
+    flex-direction: column;
+  }
+
+  .video-wrapper {
+    width: 100%;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    margin-bottom: 2rem;
+  }
+
+  .video-info {
+    width: 100%;
+  }
+}

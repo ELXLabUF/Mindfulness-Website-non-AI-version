@@ -1,0 +1,1024 @@
+.App {
+    text-align: center;
+  }
+  
+  .App-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo-container img {
+    height: 50px;
+  }
+  
+  .nav-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+  
+  .welcome-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f5f5f5;
+    position: relative;
+  }
+  
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+  }
+  
+  .welcome-message {
+    z-index: 1;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .welcome-message h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .welcome-message p {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .get-started-button {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 50px;
+    background-color: #ff8c00;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .get-started-button:hover {
+    background-color: #e67700;
+  }
+  
+  .question-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+  }
+  
+  .question-container h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .question-container button {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 50px;
+    background-color: #ff8c00;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    margin-top: 40px;
+  }
+  
+  .question-container button:hover {
+    background-color: #e67700;
+  }
+  
+  .mediation-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff;
+  }
+  
+  .mediation-container h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .mediation-container p {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .meditation-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .meditation-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 24px;
+  }
+  
+  .meditation-video-container {
+    width: 80%;
+    height: 60%;
+    margin-bottom: 24px;
+  }
+  
+  .meditation-video {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .meditation-description {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: center;
+    margin-bottom: 24px;
+  }
+  
+  .complete-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 24px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  
+  .complete-button:hover {
+    background-color: #3e8e41;
+  }
+  
+  .questions-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .question-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-bottom: 30px;
+  }
+  
+  .question-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .answer-options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .answer-option {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f2f2f2;
+    transition: background-color 0.3s ease;
+  }
+  
+  .answer-option:hover {
+    background-color: #d9d9d9;
+  }
+  
+  .answer-option.selected {
+    background-color: #6ab04c;
+    color: #fff;
+  }
+  
+  .answer-index {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  .answer-text {
+    display: inline-block;
+    font-size: 20px;
+  }
+  
+  .button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+  }
+  
+  .back-button {
+    padding: 10px 20px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: #fff;
+    border: 2px solid #000;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .back-button:hover {
+    background-color: #d9d9d9;
+  }
+  
+  .continue-button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #6ab04c;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .continue-button:hover {
+    background-color: #549e3d;
+  }
+  
+  
+  /* QuestionsPage CSS */
+  
+  .questions-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+    width: 80%;
+    max-width: 800px;
+  }
+  
+  .question-container {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+  
+  .question-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .answer-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .answer-option {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .answer-option.selected {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+  }
+  
+  .answer-index {
+    font-weight: bold;
+  }
+  
+  .back-button,
+  .continue-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .back-button {
+    background-color: #007bff;
+    color: #fff;
+    margin-right: 10px;
+  }
+  
+  .continue-button {
+    background-color: #fff;
+    color: #007bff;
+    border: 1px solid #007bff;
+  }
+  
+  .back-button:hover,
+  .continue-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* MeditationPage CSS */
+  
+  .meditation-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+    width: 80%;
+    max-width: 800px;
+  }
+  
+  .video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    margin-bottom: 50px;
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .video-description {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .meditate-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .meditate-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  .complete-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .complete-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+
+
+
+
+  /* App.css - May 2nd, 2023 */
+  /* App container */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Landing Page */
+.LandingPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.LandingPage-header {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #4285f4;
+}
+
+.LandingPage-subheader {
+  font-size: 1.5rem;
+  color: #616161;
+}
+
+.LandingPage-button {
+  background-color: #4285f4;
+  color: #fff;
+  border-radius: 24px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 12px 24px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 32px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.LandingPage-button:hover {
+  background-color: #1a73e8;
+}
+
+/* Questions Page */
+.QuestionsPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.QuestionsPage-header {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #4285f4;
+}
+
+.QuestionsPage-question {
+  font-size: 1.5rem;
+  color: #616161;
+  margin-bottom: 32px;
+}
+
+.QuestionsPage-answer {
+  background-color: #fff;
+  border: 1px solid #bdbdbd;
+  border-radius: 24px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 12px 24px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.QuestionsPage-answer:hover {
+  background-color: #eeeeee;
+}
+
+.QuestionsPage-selectedAnswer {
+  background-color: #4285f4;
+  color: #fff;
+}
+
+.QuestionsPage-selectedAnswer:hover {
+  background-color: #1a73e8;
+}
+
+.QuestionsPage-backButton {
+  background-color: transparent;
+  border: none;
+  color: #4285f4;
+  font-size: 1.2rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 16px;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out;
+}
+
+.QuestionsPage-backButton:hover {
+  color: #1a73e8;
+}
+
+.QuestionsPage-nextButton {
+  background-color: #4285f4;
+  color: #fff;
+  border-radius: 24px;
+  font-size: 1.2rem;
+  font-weight: 500;
+  padding: 12px 24px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 32px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+
+/* Landing .css - May 2nd, 2023 */
+/* .landing-page {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .logo-container img {
+    height: 40px;
+  }
+  
+  .nav-links a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .welcome-container {
+    position: relative;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.8;
+  }
+  
+  .welcome-message {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .welcome-message h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .welcome-message p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .get-started-button {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 30px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .get-started-button:hover {
+    transform: scale(1.05);
+    background-color: #222;
+  }
+  
+  .get-started-button:active {
+    transform: scale(0.95);
+    background-color: #111;
+  }
+  
+   */
+
+
+   /* LandingPage.css */
+
+/* Import Material Design fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+/* Define styles for the entire landing page */
+.landing-page {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Define styles for the header */
+.header {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+}
+
+/* Define styles for the logo container */
+.logo-container {
+  margin-left: 20px;
+}
+
+/* Define styles for the logo image */
+.logo-container img {
+  height: 50px;
+}
+
+/* Define styles for the navigation links */
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+/* Define styles for the navigation links */
+.nav-links a {
+  margin-left: 20px;
+  font-size: 18px;
+  color: #555;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Add hover effect to the navigation links */
+.nav-links a:hover {
+  color: #000;
+}
+
+/* Define styles for the welcome container */
+.welcome-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Define styles for the background image */
+.background-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+  background-image: url('D:\Projects\mindfulness\mindfulness-app\public\mindfulness_welcome.jpg');
+  /* filter: grayscale(10%); */
+}
+
+/* Define styles for the welcome message */
+.welcome-message {
+  text-align: center;
+  z-index: 1;
+  padding: 20px;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Define styles for the welcome message heading */
+.welcome-message h1 {
+  font-size: 48px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+/* Define styles for the welcome message paragraph */
+.welcome-message p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+/* Define styles for the get started button */
+.get-started-button {
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Add hover effect to the get started button */
+.get-started-button:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+
+/* QuestionsPage.js */
+
+body {
+  height: 100%;
+  background: linear-gradient(to bottom right, #8fc5b5, #38b49d);
+  margin: 0;
+}
+
+.questions-page {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.question-container {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 100%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.question-title {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.answer-options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.answer-option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.answer-option:hover {
+  background-color: #f0f0f0;
+}
+
+.selected {
+  background-color: #4CAF50;
+  color: #fff;
+  border-color: #4CAF50;
+}
+
+.answer-index {
+  margin-right: 10px;
+  font-weight: bold;
+}
+
+.button-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.back-button {
+  border: none;
+  background-color: #ddd;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.back-button:hover {
+  background-color: #ccc;
+}
+
+.continue-button {
+  border: none;
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.continue-button:hover {
+  background-color: #3e8e41;
+}
+
+/* Meditation Page - May 7th, 2023 */
+/* Recommended Meditation Page */
+.meditation-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  box-sizing: border-box; /* add this line */
+  padding: 0 50px; /* modify this line */
+  text-align: center;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 500;
+  margin: 0 0 50px; /* modify this line */
+}
+
+.video-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1000px; /* add this line */
+  margin-top: 50px; /* add this line */
+}
+
+.video-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 800px; /* modify this line */
+  height: 0;
+  padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  margin-right: 50px;
+  margin-bottom: 50px; /* add this line */
+  overflow: hidden;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.video-info {
+  width: 100%;
+  max-width: 500px; /* modify this line */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.description {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.benefits {
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+
+.button-container {
+  align-items: center;
+  justify-content: center;
+}
+
+.meditate-button {
+  font-size: 24px;
+  font-weight: 500;
+  color: #ffffff;
+  background-color: #4caf50;
+  align-items: center;
+  border: none;
+  border-radius: 50px;
+  padding: 20px 50px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.meditate-button:hover {
+  background-color: #3e8e41;
+}
+
+
+/* Video page - May 7th, 2023 */
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+.video-player {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+}
+
+.button-container {
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.complete-button {
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  border-radius: 20px;
+  background-color: #2196f3;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.complete-button:hover {
+  background-color: #1976d2;
+}
