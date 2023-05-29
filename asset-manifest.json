@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6d1e2512.css",
+    "main.js": "/static/js/main.ce4b479a.js",
+    "static/js/787.ef54eb24.chunk.js": "/static/js/787.ef54eb24.chunk.js",
+    "static/media/meditation.jpg": "/static/media/meditation.70ad4fe6377d91c3deb1.jpg",
+    "static/media/surveypage.JPG": "/static/media/surveypage.d4297260faa0faeb73c8.JPG",
+    "static/media/mindfulness_welcome.jpg": "/static/media/mindfulness_welcome.5d80f21e0baa6b9aa6ce.jpg",
+    "static/media/mlogo.png": "/static/media/mlogo.6a50e6461987c7cf9858.png",
+    "index.html": "/index.html",
+    "main.6d1e2512.css.map": "/static/css/main.6d1e2512.css.map",
+    "main.ce4b479a.js.map": "/static/js/main.ce4b479a.js.map",
+    "787.ef54eb24.chunk.js.map": "/static/js/787.ef54eb24.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6d1e2512.css",
+    "static/js/main.ce4b479a.js"
+  ]
+}
