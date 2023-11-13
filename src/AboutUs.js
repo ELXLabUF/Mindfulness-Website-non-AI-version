@@ -39,7 +39,7 @@ function AboutUs() {
           {/* Team photos and information */}
         </div>
         <div className="about-us-contact">
-          <h2>For any queries contact <a href="mailto:kumar.j@ufl.edu">Jayavidhi Kumar (kumar.j@ufl.edu)</a></h2>
+          <h2>For any queries contact <a href="mailto:adehoog@ufl.edu">Audrey DeHoog(adehoog@ufl.edu)</a></h2>
         </div>
         <div className="about-us-meditating">
           <h3>Keep Meditating.</h3>

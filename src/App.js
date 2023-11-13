@@ -43,7 +43,7 @@ function App() {
   };
 
   return (
-    <Router>
+    <Router basename='/Mindulness-Website-non-AI-version'>
       <div className="App">
         <Routes>
           <Route path="/" element={<LandingPage onStartClick={handleStartClick} />}/>
