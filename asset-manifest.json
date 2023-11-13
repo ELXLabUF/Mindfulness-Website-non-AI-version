@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.6d1e2512.css",
-    "main.js": "/static/js/main.ce4b479a.js",
-    "static/js/787.ef54eb24.chunk.js": "/static/js/787.ef54eb24.chunk.js",
-    "static/media/meditation.jpg": "/static/media/meditation.70ad4fe6377d91c3deb1.jpg",
-    "static/media/surveypage.JPG": "/static/media/surveypage.d4297260faa0faeb73c8.JPG",
-    "static/media/mindfulness_welcome.jpg": "/static/media/mindfulness_welcome.5d80f21e0baa6b9aa6ce.jpg",
-    "static/media/mlogo.png": "/static/media/mlogo.6a50e6461987c7cf9858.png",
-    "index.html": "/index.html",
-    "main.6d1e2512.css.map": "/static/css/main.6d1e2512.css.map",
-    "main.ce4b479a.js.map": "/static/js/main.ce4b479a.js.map",
-    "787.ef54eb24.chunk.js.map": "/static/js/787.ef54eb24.chunk.js.map"
+    "main.css": "/Mindulness-Website-non-AI-version/static/css/main.e057481b.css",
+    "main.js": "/Mindulness-Website-non-AI-version/static/js/main.5fea3bc1.js",
+    "static/js/787.ef54eb24.chunk.js": "/Mindulness-Website-non-AI-version/static/js/787.ef54eb24.chunk.js",
+    "static/media/meditation.jpg": "/Mindulness-Website-non-AI-version/static/media/meditation.70ad4fe6377d91c3deb1.jpg",
+    "static/media/surveypage.JPG": "/Mindulness-Website-non-AI-version/static/media/surveypage.d4297260faa0faeb73c8.JPG",
+    "static/media/mindfulness_welcome.jpg": "/Mindulness-Website-non-AI-version/static/media/mindfulness_welcome.5d80f21e0baa6b9aa6ce.jpg",
+    "static/media/mlogo.png": "/Mindulness-Website-non-AI-version/static/media/mlogo.6a50e6461987c7cf9858.png",
+    "index.html": "/Mindulness-Website-non-AI-version/index.html",
+    "main.e057481b.css.map": "/Mindulness-Website-non-AI-version/static/css/main.e057481b.css.map",
+    "main.5fea3bc1.js.map": "/Mindulness-Website-non-AI-version/static/js/main.5fea3bc1.js.map",
+    "787.ef54eb24.chunk.js.map": "/Mindulness-Website-non-AI-version/static/js/787.ef54eb24.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d1e2512.css",
-    "static/js/main.ce4b479a.js"
+    "static/css/main.e057481b.css",
+    "static/js/main.5fea3bc1.js"
   ]
 }
