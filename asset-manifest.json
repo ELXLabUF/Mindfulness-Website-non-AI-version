@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Mindfulness-Website-non-AI-version/static/css/main.cb6466af.css",
-    "main.js": "/Mindfulness-Website-non-AI-version/static/js/main.88adfb9c.js",
+    "main.js": "/Mindfulness-Website-non-AI-version/static/js/main.9d0f4513.js",
     "static/js/787.ef54eb24.chunk.js": "/Mindfulness-Website-non-AI-version/static/js/787.ef54eb24.chunk.js",
     "static/media/meditation.jpg": "/Mindfulness-Website-non-AI-version/static/media/meditation.70ad4fe6377d91c3deb1.jpg",
     "static/media/surveypage.JPG": "/Mindfulness-Website-non-AI-version/static/media/surveypage.d4297260faa0faeb73c8.JPG",
@@ -9,11 +9,11 @@
     "static/media/mlogo.png": "/Mindfulness-Website-non-AI-version/static/media/mlogo.6a50e6461987c7cf9858.png",
     "index.html": "/Mindfulness-Website-non-AI-version/index.html",
     "main.cb6466af.css.map": "/Mindfulness-Website-non-AI-version/static/css/main.cb6466af.css.map",
-    "main.88adfb9c.js.map": "/Mindfulness-Website-non-AI-version/static/js/main.88adfb9c.js.map",
+    "main.9d0f4513.js.map": "/Mindfulness-Website-non-AI-version/static/js/main.9d0f4513.js.map",
     "787.ef54eb24.chunk.js.map": "/Mindfulness-Website-non-AI-version/static/js/787.ef54eb24.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cb6466af.css",
-    "static/js/main.88adfb9c.js"
+    "static/js/main.9d0f4513.js"
   ]
 }
